@@ -122,22 +122,22 @@ def menuHelp():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuHelp =   "╭━━━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                "┃🇮🇩┃🇮🇩🇮🇩〔 Aditmadzs 〕🇮🇩🇮🇩" + "\n" + \
-                "┃🇮🇩┃" + "\n" + \
-                "┃🍁┃━━🍁〔 Help Message 〕🍁━━" + "\n" + \
-                "┃🍁┃━━━🍁〔 Menu 〕🍁━━━" + "\n" + \
-		        "┃🍁┃ " + key + "Help\n" + \
-		        "┃🍁┃ " + key + "Translate\n" + \
-		        "┃🍁┃ " + key + "TextToSpeech\n" + \
-		        "┃🔰┃━━🔰〔 Status Command 〕🔰━━" + "\n" + \
-		        "┃🔰┃MyKey" + "\n" + \
-		        "┃🔰┃ " + key + "Logout" + "\n" + \
-		        "┃🔰┃ " + key + "Restart" + "\n" + \
-		        "┃🔰┃ " + key + "Runtime" + "\n" + \
-		        "┃🔰┃ " + key + "Speed" + "\n" + \
-		        "┃🔰┃ " + key + "Status" + "\n" + \
-		        "┃🔧┃━🔧〔 Settings Command 〕🔧━" + "\n" + \
+	menuHelp =   "╭━━━━━━━━━" + "\n" + \
+                "┃🇮🇲┃🇮🇩〔 さัএπัஞ✵ບิथℓℓҨतΩ 〕🇮🇩" + "\n" + \
+                "┃🇮🇲┃" + "\n" + \
+                "┃🇮🇲┃━🍁〔 Help Message 〕🍁━" + "\n" + \
+                "┃🇮🇲┃━━━🍁〔 Menu 〕🍁━━━" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Help\n" + \
+		        "┃🇮🇲┃ " + key + "help2\n" + \
+		        "┃🇮🇲┃ " + key + "help3\n" + \
+		        "┃🇮🇲┃━━🔰〔 Status Command 〕🔰━━" + "\n" + \
+		        "┃🇮🇲┃MyKey" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Logout" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Restart" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Runtime" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Speed" + "\n" + \
+		        "┃🇮🇲┃ " + key + "Status" + "\n" + \
+		        "┃🇮🇲┃━😈〔 Settings 〕😈━" + "\n" + \
                 "┃🔧┃SetKey 「On/Off」" + "\n" + \
                 "┃🔧┃ " + key + "AutoAdd 「On/Off」" + "\n" + \
                 "┃🔧┃ " + key + "AutoJoin 「On/Off」" + "\n" + \
@@ -152,32 +152,32 @@ def menuHelp():
                 "┃🔧┃ " + key + "SetAutoAddMessage: 「text」" + "\n" + \
                 "┃🔧┃ " + key + "SetAutoResponMessage: 「text」" + "\n" + \
                 "┃🔧┃ " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
-		        "┃🇮🇩┃━━🇮🇩〔 Self Command 〕🇮🇩━━" + "\n" + \
-                "┃🇮🇩┃ " + key + "ChangeName: 「Text」" + "\n" + \
-                "┃🇮🇩┃ " + key + "ChangeBio: 「Text」" + "\n" + \
-                "┃🇮🇩┃ " + key + "Me" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyMid" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyName" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyBio" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyPicture" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyVideoProfile" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyCover" + "\n" + \
-                "┃🇮🇩┃ " + key + "MyProfile" + "\n" + \
-                "┃🇮🇩┃ " + key + "GetMid @Mention" + "\n" + \
-                "┣🇮🇩┫ " + key + "GetName @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "GetBio @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "GetPicture @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "GetVideoProfile @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "GetCover @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "CloneProfile @Mention" + "\n" + \
-                "┃🇮🇩┃ " + key + "RestoreProfile" + "\n" + \
-                "┃🇮🇩┃ " + key + "BackupProfile" + "\n" + \
-                "┃🇮🇩┃ " + key + "FriendList" + "\n" + \
-                "┃🇮🇩┃ " + key + "FriendInfo 「Number」" + "\n" + \
-                "┃🇮🇩┃ " + key + "BlockList" + "\n" + \
-                "┃🇮🇩┃ " + key + "FriendBroadcast" + "\n" + \
-                "┃🇮🇩┃ " + key + "ChangePictureProfile" + "\n" + \
-		        "┃🛠┃━━🛠〔 Group Command 〕🛠━━" + "\n" + \
+		        "┃😈┃━😈〔 Self 〕😈━" + "\n" + \
+                "┃🇮🇲┃ " + key + "ChangeName: 「Text」" + "\n" + \
+                "┃🇮🇲┃ " + key + "ChangeBio: 「Text」" + "\n" + \
+                "┃🇮🇲┃ " + key + "Me" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyMid" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyName" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyBio" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyPicture" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyVideoProfile" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyCover" + "\n" + \
+                "┃🇮🇲┃ " + key + "MyProfile" + "\n" + \
+                "┃🇮🇲┃ " + key + "GetMid @Mention" + "\n" + \
+                "┣🇮🇲┫ " + key + "GetName @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "GetBio @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "GetPicture @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "GetVideoProfile @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "GetCover @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "CloneProfile @Mention" + "\n" + \
+                "┃🇮🇲┃ " + key + "RestoreProfile" + "\n" + \
+                "┃🇮🇲┃ " + key + "BackupProfile" + "\n" + \
+                "┃🇮🇲┃ " + key + "FriendList" + "\n" + \
+                "┃🇮🇲┃ " + key + "FriendInfo 「Number」" + "\n" + \
+                "┃🇮🇲┃ " + key + "BlockList" + "\n" + \
+                "┃🇮🇲┃ " + key + "FriendBroadcast" + "\n" + \
+                "┃🇮🇲┃ " + key + "ChangePictureProfile" + "\n" + \
+		        "┃🇮🇲┃━😈〔 Group 〕😈━" + "\n" + \
                 "┃🛠┃ " + key + "ChangeGroupName: 「Text」" + "\n" + \
                 "┃🛠┃ " + key + "GroupCreator" + "\n" + \
                 "┃🛠┃ " + key + "GroupID" + "\n" + \
@@ -191,7 +191,7 @@ def menuHelp():
                 "┃🛠┃ " + key + "GroupInfo" + "\n" + \
                 "┣🛠┫ " + key + "GroupBroadcast: 「Text」" + "\n" + \
                 "┃🛠┃ " + key + "ChangeGroupPicture" + "\n" + \
-		        "┃✍️┃━━✍️〔 Special Command 〕✍️━━" + "\n" + \
+		        "┃🇮🇲┃━😈〔 Special 〕😈━" + "\n" + \
                 "┃✍️┃ " + key + "Mimic 「On/Off」" + "\n" + \
                 "┃✍️┃ " + key + "MimicList" + "\n" + \
                 "┃✍️┃ " + key + "MimicAdd @Mention" + "\n" + \
@@ -199,7 +199,7 @@ def menuHelp():
                 "┃✍️┃ " + key + "Mention" + "\n" + \
                 "┃✍️┃ " + key + "Lurking 「On/Off」" + "\n" + \
                 "┃✍️┃ " + key + "Lurking" + "\n" + \
-		        "┃📀┃━━📀〔 Media Command 〕📀━━" + "\n" + \
+		        "┃🇮🇲┃━😈〔 Media 〕😈━" + "\n" + \
                 "┃📀┃ " + key + "InstaInfo 「Username」" + "\n" + \
                 "┃📀┃ " + key + "InstaStory 「Username」" + "\n" + \
                 "┃📀┃ " + key + "Quotes" + "\n" + \
@@ -207,7 +207,7 @@ def menuHelp():
                 "┃📀┃ " + key + "SearchMusic 「Search」" + "\n" + \
                 "┃📀┃ " + key + "SearchLyric 「Search」" + "\n" + \
                 "┃📀┃ " + key + "SearchYoutube 「Search」" + "\n" + \
-		        "╰━━━〔 BIG BOS: ©Aditmadzs™  〕"
+		        "╰━━━〔 BOS:【さัএπัஞ✵ບิथℓℓҨतΩ】〕"
 	return menuHelp
 
 def menuTextToSpeech():
@@ -462,14 +462,14 @@ def clientBot(op):
 							name = contact.displayName
 							link = "https://pa1.narvii.com/6547/d29a5e4bb3405d83fc15cf50ec057f41640618a8_hq.gif"
 							client.sendFooter(to, helpMessage, icon, name, link)
-						elif cmd == "texttospeech":
+						elif cmd == "help2":
 							helpTextToSpeech = menuTextToSpeech()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
 							link = "https://pa1.narvii.com/6547/d29a5e4bb3405d83fc15cf50ec057f41640618a8_hq.gif"
 							client.sendFooter(to, helpTextToSpeech, icon, name, link)
-						elif cmd == "translate":
+						elif cmd == "help3":
 							helpTranslate = menuTranslate()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
@@ -480,7 +480,7 @@ def clientBot(op):
 
 						elif cmd == "status":
 							try:
-								ret_ = "╔══[ Status ]"
+								ret_ = "╔═[【さัএπัஞ✵ບิथℓℓҨतΩ】]"
 								if settings["autoAdd"] == True: ret_ += "\n╠ Auto Add : ON"
 								else: ret_ += "\n╠ Auto Add : OFF"
 								if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join : ON"
@@ -504,7 +504,7 @@ def clientBot(op):
 								ret_ +="\n╠ Auto Add Message : {}".format(settings["autoAddMessage"])
 								ret_ +="\n╠ Auto Join Message : {}".format(settings["autoJoinMessage"])
 								ret_ +="\n╠ Auto Respon Message : {}".format(settings["autoResponMessage"])
-								ret_ += "\n╚══[ Status ]"
+								ret_ += "\n╚═[【さัএπัஞ✵ບิथℓℓҨतΩ】]"
 								client.sendMessage(to, str(ret_))
 							except Exception as error:
 								logError(error)
